@@ -1,0 +1,22 @@
+.clientFeedback {
+    .star{
+        float : right;
+    }
+    .star i{
+        font-size: 1.7em;
+      }    
+      .star label{
+         line-height: 1;
+      }
+      .ionLabel.starRating.sc-ion-label-md-h.sc-ion-label-md-s{
+          margin: 0;
+      }
+      .clientFeedbackButton{
+        ion-button.appButton{
+            --background: rgb(33, 150, 243);
+        }
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+}

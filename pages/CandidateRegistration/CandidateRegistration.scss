@@ -1,0 +1,34 @@
+.candidateRegContainer{
+    .imagePlaceHolder{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        .cameraIcon{
+          position: absolute;
+          top: 164px;
+          left: calc((50%) + 56px);   
+        }
+      }
+      .imageErr{
+        margin: 10px;
+        padding-left: 10px;
+        color: red;
+        font-size: 17PX;
+        font-weight: 600;
+      }
+    .candidateRegCntrlPanel{
+        ion-button.appButton{
+            --background: rgb(33, 150, 243);
+        }
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .errorMsg{
+        padding: 0 15px;
+    }
+    .candidateImage{
+        width: 100%;
+    }
+}
+

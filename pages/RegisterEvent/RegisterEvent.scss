@@ -1,0 +1,84 @@
+.eventRegContainer{
+    .clientwrapper .organizerwrapper{
+        flex: 1;
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        .clientLabel{
+            padding: 10px 0;
+        }
+        .addClientBtn .addOrgnzBtn{
+            width: 35px;
+            margin: auto 10px;
+        }
+        ion-button{
+                --padding-start: 0em;
+                --padding-end: 0em;
+        }
+    }
+    .eventRegCntrlPanel{
+        ion-button.appButton{
+            --background: rgb(33, 150, 243);
+        }
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .errorMsg{
+        padding: 0 15px;
+    }  
+    
+
+.addClientBtn, .addOrgnzBtn{
+    margin-left: 5px;    
+}
+}
+ion-modal.modalContent{
+    color: red;
+    .modal-wrapper{
+        --height: 220px;
+        margin: 20px;
+    }
+    ion-content {
+    --padding-bottom: 10px;
+    --padding-top: 10px;
+    --padding-start: 10px;
+    --padding-end: 10px;
+    }
+    .errMsg{
+        text-align: center;
+        padding-top: 5px;
+        color: red;
+        margin: 0;
+    }
+    .modalBtn{
+        ion-button.appButton{
+            --background: rgb(33, 150, 243);
+        }
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }   
+   
+}
+.organizerModel {
+    .modal-wrapper{
+        height: 290px;  
+        overflow: auto;
+    }  
+}
+.model_title{
+    padding: 0px 10px 0px 20px;
+}
+.round_button{
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    
+}
+.editButton{
+    position: fixed;
+    right: 55px;
+    bottom: 10px;
+}

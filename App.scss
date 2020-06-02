@@ -1,0 +1,56 @@
+:root {
+    --ion-color-primary: #2196f3;
+    --ion-color-primary-rgb: rgb(33, 150, 243);
+    --ion-color-primary-contrast: #ffffff;
+    --ion-color-primary-contrast-rgb:rgb(255, 255, 255);
+    --ion-color-primary-shade: #2196e0;
+}
+.rootApp{
+    body, html.md{
+        font-family: Arial, Helvetica, sans-serif;
+    }    
+    ion-toast.toastMessage{
+        --background: rgb(33, 150, 243);
+        color: white;
+        font-size: 16px;
+    }
+    ion-toast.toastErrorMessage{
+        --background: #ff2929;
+        color: white;
+        font-size: 15px;
+    }
+    .label-fixed.sc-ion-label-md-h{
+        flex: 0 0 140px;
+    }
+    .label-fixed.sc-ion-label-ios-h {
+        flex: 0 0 140px;
+    }
+    .appHeader{   
+        background: rgb(33, 150, 243);
+        color: white;   
+        display: flex;
+        height: 48px;
+        text-align: center;
+    }
+    ion-row {
+        padding: 10px 0;
+    }    
+    .appButton{
+        width: 100%;
+    }
+    ion-toolbar.sc-ion-searchbar-ios-h, ion-toolbar .sc-ion-searchbar-ios-h{
+        padding-right: 0px;
+        padding-left: 0px;
+        
+    }
+    ion-modal.modalContent ion-content{
+        --padding-start: 0px;
+    }
+    ion-toolbar.in-toolbar.ios.hydrated.toolbar-searchbar{
+        --padding-start: 0px !important;
+      }
+      ion-select.ios.in-item.hydrated, ion-select.md.in-item.hydrated{
+        max-width: 60%;
+        padding-left: 0px;
+      }
+}

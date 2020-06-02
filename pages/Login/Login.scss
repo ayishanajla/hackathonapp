@@ -1,0 +1,31 @@
+.loginContainer {
+    .loginCntrlPanel {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.img_center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 25%;
+    background: #0066b3;    
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.eye_button{
+cursor: pointer;
+}
+.sc-ion-buttons-md-h, .sc-ion-buttons-ios-h{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.item-label-floating.sc-ion-input-md-h, .item-label-floating .sc-ion-input-md-h, .item-label-stacked.sc-ion-input-md-h, .item-label-stacked .sc-ion-input-md-h{
+    padding-bottom: 0px;
+}
+}
+.txtCenter{
+    text-align: center;
+}

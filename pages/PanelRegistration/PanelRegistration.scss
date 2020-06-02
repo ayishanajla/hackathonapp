@@ -1,0 +1,13 @@
+.panelRegContainer{
+    .panelRegCntrlPanel{
+        ion-button.appButton{
+            --background: rgb(33, 150, 243);
+        }
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .errorMsg{
+        padding: 0 15px;
+    }
+}

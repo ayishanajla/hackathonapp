@@ -1,0 +1,190 @@
+.container{
+  margin-top: 15px;
+}
+.report{
+  font-family: sans-serif;
+}
+ion-content{
+  overflow: scroll;
+}
+ion-page{
+  overflow: scroll;
+}
+.reportPage{
+  .candidateListLabel{
+      padding: 10px;
+      margin: 0;
+  }
+  .eventSelection{
+      margin: 10px;
+      padding: 0;
+      ion-row{
+          padding: 0;
+      }
+      .colClass{
+        padding: 0;
+      }
+      .colClassLeft {
+        padding:11px 0;
+      }
+      .colClassRight {
+        display: flex;
+        .eventList{
+          max-width: 200px;
+          min-width: 200px;
+        }
+        .downloadBtn{
+          color: #2196f3;
+        }
+        .eventList, .squadList, .sprint, .candidateList {
+          border: solid 1px lightgrey;
+          border-radius: 10px;
+          padding-left: 10px;
+        }
+      }
+  }
+  .candidateCard{
+      margin: 5px 10px;
+      border: solid 1px lightgrey;
+      .candidateHeader{
+          background: lightgray;
+          padding: 10px;
+          display: flex;
+          .candidateInfo{
+            padding-left: 10px;
+          }
+          .title{
+              font-size: 20px;
+              font-weight: 500;
+          }
+      }
+      .sprintScoreWrapper{
+          color:black;
+          padding: 10px 20px;
+          .feedbackList{
+            padding-bottom: 10px;
+            border-bottom: solid 1px lightgray;
+            &:last-child {
+              border: none;
+            }
+          }
+          .scoreTextLabel{
+              font-weight: 600;
+              padding-bottom: 10px;
+          }
+          .eventData{
+              width: 80%;
+              display: flex;
+              .eventTitle {
+                  width: 50%;
+              }
+          }
+          .scoreItemList{
+              display: flex;
+              width: 60%;
+              justify-content: space-between;
+              padding-bottom: 5px;
+              .scoreTextLabel{
+                  font-weight: 500;
+                  padding: 0;
+              }
+          }
+          .commentListItem{
+              .comment{
+                  margin: 0;
+              }
+          }
+      }
+  }
+}
+
+
+// Report
+
+html,
+body,
+div#root {
+  margin: 0;
+  padding: 0;
+}
+
+div#root {
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+section.pdf-body {
+  padding: 16px;
+  background-color: #eee;
+  height: 100%;
+  margin: 8px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex {
+  flex: 1 1 auto;
+}
+
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 8px;
+  margin: 4px;
+}
+
+section.header-bar {
+  padding: 16px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+section.header-bar .header {
+  font-size: 14px;
+}
+
+section.pdf-toolbar {
+  padding: 16px;
+}
+section.pdf-toolbar.downloadBtn{
+    width: 100px;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    margin-top: 5px;
+}
+section.pdf-toolbar button {
+  background-color: #fff;
+  border: 1px solid #555;
+  padding: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+section.pdf-toolbar button:hover,
+section.pdf-toolbar button:focus {
+  border: 1px solid #333;
+  background-color: #eee;
+}
+
+section.pdf-section {
+  font-size: 14px !important;
+}
+.k-pdf-export .eventTitle,.k-pdf-export .scoreLabel{
+    font-weight: 500;
+}

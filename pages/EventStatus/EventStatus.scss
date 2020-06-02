@@ -1,0 +1,9 @@
+.eventStatus {
+    margin: 10px 20px;
+    ion-list{
+      border: solid 1px #c8c7cc;
+    }
+    ion-item.statusList{
+      --border-color: transparent;
+    }
+  }
